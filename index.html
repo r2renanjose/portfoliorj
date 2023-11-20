@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renan José | Web Developer</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="shortcut icon" href="imagens/icorj.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9761a33a78.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            const target = document.querySelector(this.getAttribute('href'));
+            window.scrollTo({
+                top: target.offsetTop,
+                behavior: 'smooth'
+            });
+        });
+    });</script>
+</head>
+<body>
+
+    <!--topo do site-->
+    <header class="cabecalho">
+        <img class="logo-topo" src="imagens/logorj.png" alt="logo-RJ">
+        <nav class="menu">
+            <a href="#projetos">Projetos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!--seção inicio-->
+        <div class="principal">
+            <h4 class="bem-vindo">Bem Vindo 👋, Eu sou</h3>
+            <h1 class="nome">Renan José</h1>
+            <h3 class="designação">Desenvolvedor Web</h2>
+        </div>
+
+        <!--seção projetos-->
+        <div class="projetos">
+            <a name="projetos"><h1 class="projetos">Projetos</h1></a>
+            <h3 class="descrição-projetos">Uma seleção dos meus projetos práticos favoritos! 😎</h3>
+        </div>
+
+        <!--seção imagens projetos-->
+        <div class="imgs-projetos">
+            <a href="#"><img src="imagens/port01.png" alt="landing-elemento"></a>
+            <a href="#"><img src="imagens/port01.png" alt="landing-elemento"></a>
+            <a href="#"><img src="imagens/port01.png" alt="landing-elemento"></a>
+        </div>
+        
+        <!--seção habilidades-->
+        <div class="habilidades">
+            <a name="habilidades"><h1 class="txt-habilidades">Habilidades</h1></a>
+            <h3 class="descrição-habilidades">Algumas das Tecnologias e Linguagens que eu uso!</h3>
+        </div>
+
+        <!--seção imagens habilidades-->
+        <div class="img-habilidades">
+            <img src="imagens/html.png" alt="html5">
+            <img src="imagens/css.png" alt="css3">
+            <img src="imagens/js.png" alt="java-script">
+            <img src="imagens/git.png" alt="github">
+        </div>
+
+        <!--seção contato-->
+        <div class="contato">
+            <a name="contato"><h1 class="txt-contato">Contato</h1></a>
+            <h3 class="descrição-contato">Gostou? Estou a disposição, não exite em entrar em contato! 😄</h3>
+        </div>
+        <div class="box-contatos">
+            <h3 class="pin"><i class="fa-solid fa-location-dot"></i></h3>
+            <h3 class="local">Lisboa - Portugal</h3>
+        </div>
+        <div class="icones-contato">
+            <a href="https://github.com/r2renanjose" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/rjdigitall/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/r2renanjose/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/351924729692" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </div>
+
+    <a id="voltarTopo" href="#topo"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="smooth-scroll.js"></script>
+    <script src="voltar-topo.js"></script>
+
+</body>
+</html>
